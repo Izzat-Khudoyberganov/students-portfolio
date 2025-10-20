@@ -1,9 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/home";
-import Projects from "./pages/projects";
-import Articles from "./pages/articles";
-import Contact from "./pages/contact";
-import Layout from "./pages/layout";
+import { Articles, Contact, Home, Layout, Projects } from "./pages";
+
 
 // src/App.jsx
 function App() {
