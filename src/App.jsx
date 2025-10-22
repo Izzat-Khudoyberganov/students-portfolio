@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Articles, Contact, Home, Layout, Projects } from "./pages";
+import { Articles, Contact, Home, Layout, NotFound, Projects } from "./pages";
 
 // src/App.jsx
 function App() {
@@ -24,6 +24,10 @@ function App() {
           path: "/contact",
           Component: Contact,
         },
+        {
+          path: "*",
+          Component: NotFound
+        }
       ],
     },
   ]);
