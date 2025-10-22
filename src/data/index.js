@@ -1,3 +1,7 @@
+import github from '../assets/github.svg'
+import linkedin from '../assets/linkedin.svg'
+import telegram from '../assets/telegram.svg'
+
 export const headerLinks = [
   {
     id: 0,
@@ -15,3 +19,21 @@ export const headerLinks = [
     to: "/contact",
   },
 ];
+
+export const bannerLinks = [
+  {
+    id: 0,
+    icon: github,
+    to: "/"
+  },
+  {
+    id: 1,
+    icon: linkedin,
+    to: "/"
+  },
+  {
+    id: 2,
+    icon: telegram,
+    to: "/"
+  },
+]
