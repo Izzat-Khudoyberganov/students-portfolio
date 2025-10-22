@@ -10,7 +10,7 @@ function App() {
       Component: Layout,
       children: [
         {
-          path: "/home",
+          index: true,
           Component: Home,
         },
         {
