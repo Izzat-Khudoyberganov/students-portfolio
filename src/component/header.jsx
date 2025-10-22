@@ -6,7 +6,7 @@ const Header = () => {
     <header className="py-5 bg-gray-50 fixed w-full top-0 left-0 z-10 drop-shadow-gray-400">
       <div className="container">
         <div className="flex items-center justify-between">
-          <Link to={"/home"} className="text-2xl font-bold">
+          <Link to={"/"} className="text-2xl font-bold">
             Students blog site
           </Link>
 

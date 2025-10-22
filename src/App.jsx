@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Articles, Contact, Home, Layout, Projects } from "./pages";
 
-
 // src/App.jsx
 function App() {
   const routes = createBrowserRouter([
