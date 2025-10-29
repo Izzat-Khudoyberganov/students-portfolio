@@ -27,7 +27,8 @@ function App() {
         {
           path: "*",
           Component: NotFound
-        }
+        },
+        
       ],
     },
   ]);
