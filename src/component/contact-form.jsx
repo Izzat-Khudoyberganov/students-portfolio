@@ -16,7 +16,7 @@ const ContactForm = () => {
 
   const onSubmit = async (data) => {
     const text = `
-        👤UserName: ${data.firstName}\n📞Phone: ${data.phone}\n💬Message: ${data.message}
+        👤UserName: ${data.firstName}\n\n📞Phone: ${data.phone}\n\n💬Message: ${data.message}
     `;
 
     try {
