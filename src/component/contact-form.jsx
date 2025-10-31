@@ -1,8 +1,7 @@
-import { meta } from "@eslint/js";
 import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import { json } from "zod";
+
 
 const ContactForm = () => {
   const {
@@ -17,9 +16,7 @@ const ContactForm = () => {
 
   const onSubmit = async (data) => {
     const text = `
-        UserName: ${data.firstName},
-        Phone: ${data.phone},
-        Message: ${data.message}
+        UserName: ${data.firstName}\Phone: ${data.phone}\Message: ${data.message}
     `;
 
     try {
