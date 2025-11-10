@@ -2,10 +2,10 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import PhoneInput from "react-phone-number-input";
-import "react-phone-number-input/style.css";
 import { useState } from "react";
+import "react-phone-number-input/style.css";
 
-// ✅ Validation Schema
+
 const ContactSchema = z.object({
   firstName: z
     .string()
